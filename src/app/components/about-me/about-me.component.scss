@@ -1,0 +1,37 @@
+.about-me-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.title {
+  font-size: 48px;
+  color: #0047AB;
+  text-align: center;
+  margin: 40px 0;
+}
+.carousels-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 40px 0;
+}
+.description {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.description-content h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.description-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .carousels-container {
+    flex-direction: column;
+  }
+}

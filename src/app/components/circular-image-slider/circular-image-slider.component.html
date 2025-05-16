@@ -1,0 +1,22 @@
+<div class="slider-container">
+    <div class="circular-container" #circularContainer>
+
+        <!-- <div class="center-content">
+            <div class="main-image-container" *ngIf="images.length > 0">
+                <img [src]="images[activeIndex]" alt="Main image" class="main-image">
+                <div class="image-caption" *ngIf="captions && captions[activeIndex]">
+                    {{ captions[activeIndex] }}
+                </div>
+            </div>
+        </div> -->
+
+        <div class="image-orbit">
+            <div *ngFor="let image of images; let i = index" class="orbit-image-container"
+                [class.active]="i === activeIndex" [style.transform]="getImagePosition(i)" (click)="setActive(i)">
+                <img [src]="image" [alt]="'Image ' + i" class="orbit-image">
+            </div>
+        </div>
+
+    </div>
+</div>
+

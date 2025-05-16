@@ -1,0 +1,18 @@
+<div class="about-me-container">
+    <h1 class="title">About me</h1>
+    
+    <app-country-selector></app-country-selector>
+    
+    <div class="carousels-container">
+      <app-image-carousel position="left" type="a"></app-image-carousel>
+      <app-image-carousel position="right" type="b"></app-image-carousel>
+    </div>
+
+    <div class="description" *ngIf="isAustraliaSelected()">
+      <div class="description-content">
+        <h2>A pivotal chapter of my life unfolded when I moved to Australia:</h2>
+        <p>Traveling solo and immersing myself in a vibrant, multicultural environment.</p>
+        <p>Working on wind energy projects at Servion and Someva honed my leadership and contract management skills, solidifying my belief that organizational success and positive environmental impact can—and must—move forward together.</p>
+      </div>
+    </div>
+  </div>

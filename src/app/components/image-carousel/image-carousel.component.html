@@ -1,0 +1,17 @@
+<div class="carousel-container" [class]="position">
+    <div class="carousel-content">
+      <div class="carousel" [style.transform]="'translateX(' + translateX + 'px)'">
+        <div 
+          *ngFor="let image of images" 
+          class="carousel-item"
+          [class.active]="isImageActive(image)"
+          (click)="selectImage(image)">
+          <img [src]="image.path" [alt]="image.id">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controls" *ngIf="images.length > 0">
+      <button (click)="prev()" class="control-button">❮</button>
+      <button (click)="next()" class="control-button">❯</button>
+    </div>
+  </div>

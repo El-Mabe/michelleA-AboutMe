@@ -1,0 +1,53 @@
+.app-container {
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+.nav-link.active {
+  background-color: #0047AB;
+  color: white;
+}
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+.social-link {
+  color: #333;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
