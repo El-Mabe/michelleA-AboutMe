@@ -27,8 +27,8 @@
 
 .orbit-image-container {
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
@@ -39,15 +39,19 @@
 }
 
 .orbit-image-container:hover {
-  transform: scale(1.1) !important;
+  // transform: scale(1.1) !important;
   z-index: 15;
   opacity: 1;
 }
 
 .orbit-image-container.active {
-  border-color: #F44336;
+  // border-color: #F44336;
+  // opacity: 1;
+  // transform: scale(1.4) !important;
+  z-index: 20;
   opacity: 1;
-
+  border-color: #F44336;
+  transition: all 0.5s ease;
 }
 
 .orbit-image {
