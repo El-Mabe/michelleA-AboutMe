@@ -1,52 +1,5 @@
-<!-- <div class="slider-container">
-    <div class="circular-container" #circularContainer>
-        <div class="image-orbit">
-            <div *ngFor="let image of images; let i = index" class="orbit-image-container"
-                [class.active]="i === activeIndex" [style.transform]="getImagePositionL(i)" (click)="setActive(i)">
-                <img [src]="image" [alt]="'Image ' + i" class="orbit-image">
-            </div>
-        </div>
-    </div>
-</div>
- -->
-
-<!-- Contenedor principal que alinea ambos sliders horizontalmente -->
-<!-- <div class="sliders-wrapper"> -->
-
-<!-- SLIDER IZQUIERDO -->
-<!-- <div class="slider-container">
-      <div class="circular-container" #circularContainerLeft>
-        <div class="image-orbit">
-          <div *ngFor="let image of images; let i = index"
-               class="orbit-image-container"
-               [class.active]="i === activeIndex"
-               [style.transform]="getImagePositionL(i)"
-               (click)="setActive(i)">
-            <img [src]="image" [alt]="'Image ' + i" class="orbit-image">
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-<!-- SLIDER DERECHO -->
-<!-- <div class="slider-container">
-      <div class="circular-container" #circularContainerRight>
-        <div class="image-orbit">
-          <div *ngFor="let image of images; let i = index"
-               class="orbit-image-container"
-               [class.active]="i === activeIndexRight"
-               [style.transform]="getImagePositionR(i)"
-               (click)="setActiveRight(i)">
-            <img [src]="image" [alt]="'Image ' + i" class="orbit-image">
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-<!-- </div> -->
-
-
 <div class="slider-container">
+
     <!-- Slider Izquierdo -->
     <div class="circular-container" #circularContainerLeft>
         <div class="image-orbit">
@@ -56,6 +9,25 @@
             </div>
         </div>
     </div>
+
+    <div class="information">
+        <h2>About me</h2>
+        <div>
+            <button class="btn-c">USA</button>
+            <button class="btn-c">Australia</button>
+            <button class="btn-c">Colombia</button>
+        </div>
+    </div>
+    <div class="lbl-country">
+        <span>Colombia</span>
+    </div>
+    <p class="description">
+        A pivotal chapter of my life unfolded when I moved to Australia:
+        Traveling solo and immersing myself in a vibrant, multicultural environment.
+        Working on wind energy projects at Servion and Someva honed my leadership and contract management skills,
+        solidifying my belief that organizational success and positive environmental impact can—and must—move forward
+        together.
+    </p>
 
     <!-- Slider Derecho -->
     <div class="circular-container" #circularContainerRight>

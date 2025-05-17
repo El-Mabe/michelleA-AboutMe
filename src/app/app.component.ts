@@ -23,5 +23,15 @@ export class AppComponent {
     'assets/images/colombia/b-4.jpeg',
     'assets/images/colombia/a-5.jpg',
     'assets/images/colombia/b-5.jpg',
+    'assets/images/colombia/a-1.jpg',
+    'assets/images/colombia/b-1.jpeg',
+    'assets/images/colombia/a-2.jpeg',
+    'assets/images/colombia/b-2.jpeg',
+    'assets/images/colombia/a-3.jpeg',
+    'assets/images/colombia/b-3.jpeg',
+    'assets/images/colombia/a-4.jpeg',
+    'assets/images/colombia/b-4.jpeg',
+    'assets/images/colombia/a-5.jpg',
+    'assets/images/colombia/b-5.jpg',
   ];
 }
