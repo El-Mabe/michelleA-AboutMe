@@ -1,0 +1,92 @@
+<!-- infinite-slider.component.html -->
+<div class="slider-wrapper">
+  <h2 *ngIf="sliderTitle" class="slider-title">{{ sliderTitle }}</h2>
+  
+  <div class="slider-container" #sliderContainer [@slideAnimation]="animationState">
+    <div class="slider-track">
+      <div 
+        *ngFor="let item of displayItems; let i = index" 
+        class="slider-item" 
+        [class.active]="i === 1"
+        [class.left-item]="i === 0"
+        [class.right-item]="i === 2"
+        (click)="onItemClick(i)">
+        
+        <div class="image-container">
+          <img [src]="item.path" [alt]="item.description">
+        </div>
+        
+        <div class="item-content" *ngIf="i === 1">
+          <p class="item-description">{{ item.description }}</p>
+          <div class="item-tag" [ngClass]="getTagClass(item)">{{ item.column }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="slider-controls">
+    <button 
+      class="nav-button prev-button" 
+      [style.background-color]="buttonColor"
+      (click)="prev()">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button 
+      class="nav-button next-button" 
+      [style.background-color]="buttonColor"
+      (click)="next()">
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- profile-page.component.html -->
+<div class="profile-container">
+  <header class="profile-header">
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Sandra Carolina Logo">
+      <div class="logo-text">
+        <h1>Sandra</h1>
+        <h2>Carolina</h2>
+      </div>
+    </div>
+    <div class="search-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="none" stroke="currentColor" stroke-width="2" d="M15 15l6 6m-2-9a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <h1 class="section-title">About me</h1>
+    
+    <!-- <app-infinite-slider 
+      [items]="travelSliderItems"
+      buttonColor="#3366cc">
+    </app-infinite-slider>
+    
+    <app-infinite-slider 
+      [items]="teamSliderItems"
+      buttonColor="#3366cc">
+    </app-infinite-slider>
+    
+    <div class="tags-container">
+      <button 
+        *ngFor="let tag of tags" 
+        class="tag-button" 
+        [ngClass]="tag.class"
+        (click)="onTagClick(tag)">
+        {{ tag.name }}
+      </button>
+    </div> -->
+    
+    <div class="bio-text">
+      <p>{{ bioText }}</p>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,325 @@
+{
+  "country": [
+    {
+      "id": "43",
+      "path": "assets/images/3/43.JPG",
+      "column": "A",
+      "description": "Welcome back: Family reunion in the coffee region, 2012.",
+      "tupla": "44",
+      "title": "Impact in Colombia"
+    },
+    {
+      "id": "44",
+      "path": "assets/images/3/44.JPG",
+      "column": "B",
+      "description": "Family reunion in the coffee region, 2012.",
+      "tupla": "43",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "45",
+      "path": "assets/images/3/45.jpg",
+      "column": "A",
+      "description": "A bowling day with PwC colleagues, 2014.",
+      "tupla": "46",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "46",
+      "path": "assets/images/3/46.jpg",
+      "column": "B",
+      "description": "Sustainability and Climate Change and mining team at PwC Colombia, 2014.",
+      "tupla": "45",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "47",
+      "path": "assets/images/3/47.jpg",
+      "column": "A",
+      "description": "Performing a water and technology optimization project at a palm oil mill, PwC Colombia, 2015.",
+      "tupla": "48",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "48",
+      "path": "assets/images/3/48.jpg",
+      "column": "B",
+      "description": "En campo",
+      "tupla": "47",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "49",
+      "path": "assets/images/3/49.jpg",
+      "column": "A",
+      "description": "office",
+      "tupla": "50",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "50",
+      "path": "assets/images/3/50.jpg",
+      "column": "B",
+      "description": "Celebrating the end of the year with family, 2016.",
+      "tupla": "49",
+      "title": "First Steps Forward"
+    },
+    {
+      "id": "51",
+      "path": "assets/images/4/51.jpg",
+      "column": "A",
+      "description": "A new adventure, traveling to Australia, 2017.",
+      "tupla": "52",
+      "filter": "usa",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "52",
+      "path": "assets/images/4/52.jpg",
+      "column": "B",
+      "description": "Getting to know Brisbane with friends, 2017.",
+      "tupla": "51",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "53",
+      "path": "assets/images/4/53.jpg",
+      "column": "A",
+      "description": "With my husband at Melbourne CBD, 2017.",
+      "tupla": "54",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "54",
+      "path": "assets/images/4/54.jpg",
+      "column": "B",
+      "description": "A sunset at Melbourne CBD, 2017.",
+      "tupla": "53",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "55",
+      "path": "assets/images/4/55.jpg",
+      "column": "A",
+      "description": "Moments with Senvion Colleagues, Sonia's farewell, 2018.",
+      "tupla": "56",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "56",
+      "path": "assets/images/4/56.jpg",
+      "column": "B",
+      "description": "Qigong at the Park, Melbourne, Australia.",
+      "tupla": "55",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "57",
+      "path": "assets/images/4/57.jpg",
+      "column": "A",
+      "description": "Interviewing at CSRO, Melbourne, Australia.",
+      "tupla": "58",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "58",
+      "path": "assets/images/4/58.jpg",
+      "column": "B",
+      "description": "At my favorite place in Melbourne, City Library, AU.",
+      "tupla": "57",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "59",
+      "path": "assets/images/4/59.jpg",
+      "column": "A",
+      "description": "Visiting my aunts, Medellín, Colombia, 2018.",
+      "tupla": "60",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "60",
+      "path": "assets/images/4/60.jpg",
+      "column": "B",
+      "description": "A special moment with my nephew, Medellín, Colombia, 2018.",
+      "tupla": "59",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "61",
+      "path": "assets/images/4/61.jpg",
+      "column": "A",
+      "description": "My artistic project for my new home, Bogotá, Colombia, 2018.",
+      "tupla": "62",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "62",
+      "path": "assets/images/4/62.jpg",
+      "column": "B",
+      "description": "My artistic project for my new home, Bogotá, Colombia, 2018.",
+      "tupla": "61",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "63",
+      "path": "assets/images/4/63.jpg",
+      "column": "A",
+      "description": "Visiting “Nomade” by Jaume Plensa – UC San Diego, 2018",
+      "tupla": "64",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "64",
+      "path": "assets/images/4/64.jpg",
+      "column": "B",
+      "description": "Visiting family in Ames, Iowa, USA.",
+      "tupla": "63",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "65",
+      "path": "assets/images/4/65.jpg",
+      "column": "A",
+      "description": "Travelling back to Australia, 2018.",
+      "tupla": "66",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "66",
+      "path": "assets/images/4/66.jpg",
+      "column": "B",
+      "description": "Spending time with my Australian family, Brisbane, 2018.",
+      "tupla": "65",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "67",
+      "path": "assets/images/4/67.jpg",
+      "column": "A",
+      "description": "Australian Open, Jan. 2019.",
+      "tupla": "68",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "68",
+      "path": "assets/images/4/68.jpg",
+      "column": "B",
+      "description": "Running for the Kids Marathon: 10 km, Melbourne, 2019.",
+      "tupla": "67",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "69",
+      "path": "assets/images/4/69.jpg",
+      "column": "A",
+      "description": "With my colleague Natasha at Senvion headquarters, 2019.",
+      "tupla": "70",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "70",
+      "path": "assets/images/4/70.jpg",
+      "column": "B",
+      "description": "A day in the Senvion office, Melbourne, 2019.",
+      "tupla": "69",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "71",
+      "path": "assets/images/4/71.jpg",
+      "column": "A",
+      "description": "The big Koala on our way to Murra Warra Wind farm, Senvion, AU, 2019",
+      "tupla": "72",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "72",
+      "path": "assets/images/4/72.jpg",
+      "column": "B",
+      "description": "At Murra Warra Wind Farm, Senvion, AU, 2019",
+      "tupla": "71",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "73",
+      "path": "assets/images/4/73.jpg",
+      "column": "A",
+      "description": "Celebration with Melbourne friends, 2019.",
+      "tupla": "74",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "74",
+      "path": "assets/images/4/74.jpg",
+      "column": "B",
+      "description": "My Farewell with Senvion Colleagues, May 2019.",
+      "tupla": "73",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "75",
+      "path": "assets/images/4/75.jpg",
+      "column": "A",
+      "description": "Senvion Farewell Card Cover, May 2019",
+      "tupla": "76",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "76",
+      "path": "assets/images/4/76.jpg",
+      "column": "B",
+      "description": "Senvion Farewell Card: Messages from Colleagues, May 2019",
+      "tupla": "75",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "77",
+      "path": "assets/images/4/77.jpg",
+      "column": "A",
+      "description": "With my dearest sister-in-law Luisa",
+      "tupla": "78",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "78",
+      "path": "assets/images/4/78.jpg",
+      "column": "B",
+      "description": "Visiting my friend Margarita in Manly, Sydney, Australia, 2019.",
+      "tupla": "77",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "79",
+      "path": "assets/images/4/79.jpg",
+      "column": "A",
+      "description": "Playing pool with Someva teammates",
+      "tupla": "80",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "80",
+      "path": "assets/images/4/80.jpg",
+      "column": "B",
+      "description": "Queen's day, Australia, 2019.",
+      "tupla": "79",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "81",
+      "path": "assets/images/4/81.jpg",
+      "column": "A",
+      "description": "On the Hills of Gold Wind Farm Site, checking wind measurement equipment, AU, 2019.",
+      "tupla": "82",
+      "title": "Australian Energy Shift"
+    },
+    {
+      "id": "82",
+      "path": "assets/images/4/82.jpg",
+      "column": "B",
+      "description": "Celebrating a project milestone with Someva Crew, 2019.",
+      "tupla": "81",
+      "title": "Australian Energy Shift"
+    }
+  ]
+}

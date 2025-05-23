@@ -93,4 +93,8 @@ export class ImageService {
     return this.imageMap[country].filter(image => image.type === 'b');
   }
 
+  getImagesCountry(country:string) {
+    
+  }
+
 }

@@ -1,0 +1,324 @@
+{
+    "country": [
+        {
+            "id": "83",
+            "path": "assets/images/4/83.jpg",
+            "column": "A",
+            "description": "Enjoying Thai BBQ in Sydney, Australia, 2019.",
+            "tupla": "84",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "84",
+            "path": "assets/images/4/84.jpg",
+            "column": "B",
+            "description": "End of the year fireworks at Sydney Harbour, Australia, 2019.",
+            "tupla": "83",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "85",
+            "path": "assets/images/4/85.jpg",
+            "column": "A",
+            "description": "Preparing myself for a Bioenergy Presentation,",
+            "tupla": "86",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "86",
+            "path": "assets/images/4/86.jpg",
+            "column": "B",
+            "description": "Australia, 2020. Someva Team sailing day, 2020.",
+            "tupla": "85",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "87",
+            "path": "assets/images/4/87.jpg",
+            "column": "A",
+            "description": "Sydney harbour days after work, AU, 2019.",
+            "tupla": "88",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "88",
+            "path": "assets/images/4/88.jpg",
+            "column": "B",
+            "description": "Minimizing Biodiversity Impacts at the Hills of Gold Wind Farm workshop, Someva, AU, 2020.",
+            "tupla": "87",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "89",
+            "path": "assets/images/4/89.jpg",
+            "column": "A",
+            "description": "Teaching at Los Andes University from the other side of the world, Australia, 2020.",
+            "tupla": "90",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "90",
+            "path": "assets/images/4/90.jpg",
+            "column": "B",
+            "description": "Sundown in Adelaide, South Australia, 2020.",
+            "tupla": "89",
+            "title": "Australian Energy Shift"
+        },
+        {
+            "id": "91",
+            "path": "assets/images/5/91.jpg",
+            "column": "A",
+            "description": "From Australia to Colombia",
+            "tupla": "92",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "92",
+            "path": "assets/images/5/92.jpg",
+            "column": "B",
+            "description": "Time to get back to my home country, Jan 2021.",
+            "tupla": "91",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "93",
+            "path": "assets/images/5/93.jpg",
+            "column": "A",
+            "description": "Working Remotely for Someva from Colombia",
+            "tupla": "94",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "94",
+            "path": "assets/images/5/94.jpg",
+            "column": "B",
+            "description": "Last day at Someva, saying goodbye to the team, Jan 2021.",
+            "tupla": "93",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "95",
+            "path": "assets/images/5/95.jpg",
+            "column": "A",
+            "description": "Enjoying a virtual glass of wine with the PwC team, 2022.",
+            "tupla": "96",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "96",
+            "path": "assets/images/5/96.jpg",
+            "column": "B",
+            "description": "CFA Workshop at E3 headquarters, 2022.",
+            "tupla": "95",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "97",
+            "path": "assets/images/5/97.jpg",
+            "column": "A",
+            "description": "Reunion with the team after Covid Time, 2022.",
+            "tupla": "98",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "98",
+            "path": "assets/images/5/98.jpg",
+            "column": "B",
+            "description": "Lifetime mates, La Ceja, Antioquia.",
+            "tupla": "97",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "99",
+            "path": "assets/images/5/99.jpg",
+            "column": "A",
+            "description": "Picnic at the park with the team, 2022.",
+            "tupla": "100",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "100",
+            "path": "assets/images/5/100.jpg",
+            "column": "B",
+            "description": "Oil and gas workshop, 2022.",
+            "tupla": "99",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "101",
+            "path": "assets/images/5/101.jpg",
+            "column": "A",
+            "description": "Biking time at La Guajira with my sister, 2022.",
+            "tupla": "102",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "102",
+            "path": "assets/images/5/102.jpg",
+            "column": "B",
+            "description": "Representing PwC at the LATAM Mobility Forum, 2022.",
+            "tupla": "101",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "103",
+            "path": "assets/images/5/103.jpg",
+            "column": "A",
+            "description": "MIT Chief Sustainability Officer Class, Boston 2022.",
+            "tupla": "104",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "104",
+            "path": "assets/images/5/104.jpg",
+            "column": "B",
+            "description": "Networking activity at the MIT Chief Sustainability Officer Programme, Boston 2022.",
+            "tupla": "103",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "105",
+            "path": "assets/images/5/105.jpg",
+            "column": "A",
+            "description": "Carbon Market, World Economic Forum Workshop, 2002.",
+            "tupla": "106",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "106",
+            "path": "assets/images/5/106.jpg",
+            "column": "B",
+            "description": "Team Leadership Workshop, 2022.",
+            "tupla": "105",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "107",
+            "path": "assets/images/5/107.jpg",
+            "column": "A",
+            "description": "Climate Finance Accelerator Bootcamp, 2022",
+            "tupla": "108",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "108",
+            "path": "assets/images/5/108.jpg",
+            "column": "B",
+            "description": "PwC End of the year celebrations, Dec 2022.",
+            "tupla": "107",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "109",
+            "path": "assets/images/5/109.jpg",
+            "column": "A",
+            "description": "Family reunion, game night, 2023.",
+            "tupla": "110",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "110",
+            "path": "assets/images/5/110.jpg",
+            "column": "B",
+            "description": "With Uniandes alumni, 2023.",
+            "tupla": "109",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "111",
+            "path": "assets/images/5/111.jpg",
+            "column": "A",
+            "description": "Carbon Markets Workshop at PwC, 2023.",
+            "tupla": "112",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "112",
+            "path": "assets/images/5/112.jpg",
+            "column": "B",
+            "description": "Studying Carbon Markets Art 6 with the team, 2023.",
+            "tupla": "111",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "113",
+            "path": "assets/images/5/113.jpg",
+            "column": "A",
+            "description": "Innovation project PwC's award, 2023.",
+            "tupla": "114",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "114",
+            "path": "assets/images/5/114.jpg",
+            "column": "B",
+            "description": "Gardening, my hobby, 2023.",
+            "tupla": "113",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "115",
+            "path": "assets/images/5/115.jpg",
+            "column": "A",
+            "description": "PwC's leaders reunion, 2023.",
+            "tupla": "116",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "116",
+            "path": "assets/images/5/116.jpg",
+            "column": "B",
+            "description": "Team building activity at the Park, Be well work well, 2023.",
+            "tupla": "115",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "117",
+            "path": "assets/images/5/117.jpg",
+            "column": "A",
+            "description": "Presenting at the Ecopetrol Circular Economy Forum, 2024.",
+            "tupla": "118",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "118",
+            "path": "assets/images/5/118.jpg",
+            "column": "B",
+            "description": "Recording PwC's Sustainability podcast with the team, 2003.",
+            "tupla": "117",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "119",
+            "path": "assets/images/5/119.jpg",
+            "column": "A",
+            "description": "At PwC Bogotá headquarters with Net Zero Team, 2024.",
+            "tupla": "120",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "120",
+            "path": "assets/images/5/120.jpeg",
+            "column": "B",
+            "description": "Exploring Mexico Cenotes, Cancún, 2025.",
+            "tupla": "119",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "121",
+            "path": "assets/images/5/121.jpg",
+            "column": "A",
+            "description": "Greenhouse gas emissions aviation workshop with the team, 2025.",
+            "tupla": "122",
+            "title": "Leading with Purpose"
+        },
+        {
+            "id": "122",
+            "path": "assets/images/5/122.jpg",
+            "column": "B",
+            "description": "Sustainability and Climate Change Team Celebration, 2025.",
+            "tupla": "121",
+            "title": "Leading with Purpose"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+<!-- <div class="container">
+
+    <h2 class="title">{{ headerTitle }}</h2> -->
+
+    <!-- Upper slider -->
+    <!-- <div class="slider">
+        <div *ngFor="let item of images" class="card">
+            <img [src]="item.path" alt="slide image" class="image" />
+            <p class="caption"><strong>{{ item.caption }}</strong></p>
+            <p class="subcaption">{{ item.subcaption }}</p>
+            <button class="tag">{{ item.tag }}</button>
+        </div>
+    </div> -->
+
+    <!-- Lower slider -->
+    <!-- <div class="slider">
+        <div *ngFor="let item of imagesRight" class="card">
+            <img [src]="item.path" alt="team image" class="image" />
+            <p class="caption"><strong>{{ item.caption }}</strong></p>
+            <p class="subcaption">{{ item.subcaption }}</p>
+            <button class="tag">{{ item.tag }}</button>
+        </div>
+    </div> -->
+
+    <!-- <div class="slider-container">
+        <div class="slider">
+            <div *ngFor="let item of images" class="card">
+                <img [src]="item.path" alt="slide image" class="image" />
+                <p class="caption"><strong>{{ item.caption }}</strong></p>
+                <p class="subcaption">{{ item.subcaption }}</p>
+                <button class="tag">{{ item.tag }}</button>
+            </div>
+        </div>
+        <div class="slider">
+            <div *ngFor="let item of imagesRight" class="card">
+                <img [src]="item.path" alt="team image" class="image" />
+                <p class="caption"><strong>{{ item.caption }}</strong></p>
+                <p class="subcaption">{{ item.subcaption }}</p>
+                <button class="tag">{{ item.tag }}</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tags">
+        <button class="btn-c" [ngClass]="{ 'selected': btnActive === 1 }"
+            (click)="setData(1)">{{this.titles()[1]}}</button>
+        <button class="btn-c" [ngClass]="{ 'selected': btnActive === 2 }"
+            (click)="setData(2)">{{this.titles()[2]}}</button>
+        <button class="btn-c" [ngClass]="{ 'selected': btnActive === 3 }"
+            (click)="setData(3)">{{this.titles()[3]}}</button>
+        <button class="btn-c" [ngClass]="{ 'selected': btnActive === 4 }"
+            (click)="setData(4)">{{this.titles()[4]}}</button>
+        <button class="btn-c" [ngClass]="{ 'selected': btnActive === 5 }"
+            (click)="setData(5)">{{this.titles()[5]}}</button>
+    </div>
+
+    <p class="description">
+        <span>{{descripTitle()}}</span>
+        {{descripText()}}
+    </p>
+</div> -->
+
+
+<!-- CASI SIRVE -->
+<div 
+  class="carousel-container"
+  (touchstart)="onTouchStart($event)"
+  (touchend)="onTouchEnd($event)"
+>
+  <div 
+    class="carousel-track"
+    [style.transform]="getTransform()"
+    [style.transition]=" 'transform 0.3s ease' "
+  >
+    <div class="carousel-slide" *ngFor="let item of items">
+      {{ item }}
+    </div>
+  </div>
+</div>
+
+<!-- <div class="carousel-container" (swipeleft)="next()" (swiperight)="prev()">
+  <div
+    class="carousel-track"
+    [style.transform]="getTransform()"
+  >
+    <div
+      *ngFor="let item of items; let i = index"
+      [class.carousel-slide]="true"
+      [class.active]="isActive(i)"
+    >
+      {{ item }}
+    </div>
+  </div>
+</div> -->

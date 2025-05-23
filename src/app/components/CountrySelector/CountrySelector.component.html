@@ -1,9 +1,0 @@
-<div class="country-selector">
-    <button 
-      *ngFor="let country of countries" 
-      [class.active]="country === selectedCountry"
-      (click)="selectCountry(country)"
-      class="country-button">
-      {{ country }}
-    </button>
-  </div>
