@@ -1,0 +1,163 @@
+// .container {
+//   padding: 16px;
+//   font-family: Arial, sans-serif;
+//   color: #000;
+// }
+
+// .title {
+//   text-align: center;
+//   font-size: 24px;
+//   color: #0052cc;
+//   margin-bottom: 16px;
+// }
+
+// /* Slider container shared by both sliders */
+// .slider {
+//   display: flex;
+//   overflow-x: auto;
+//   gap: 16px;
+//   margin-bottom: 20px;
+//   padding-bottom: 10px;
+//   scroll-snap-type: x mandatory;
+// }
+
+// .card {
+//   width: 200px;
+//   background: #fff;
+//   border-radius: 12px;
+//   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+//   padding: 12px;
+//   flex-shrink: 0;
+//   scroll-snap-align: start;
+// }
+
+// .image {
+//   width: 100%;
+//   border-radius: 8px;
+// }
+
+// .caption {
+//   margin: 8px 0 0;
+//   font-size: 14px;
+// }
+
+// .subcaption {
+//   font-size: 12px;
+//   margin-bottom: 8px;
+// }
+
+// .tag {
+//   background-color: #0052cc;
+//   color: white;
+//   border: none;
+//   padding: 6px 12px;
+//   border-radius: 8px;
+//   font-size: 12px;
+// }
+
+// .tags {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 8px;
+//   justify-content: center;
+//   margin-bottom: 16px;
+
+//   .btn-c {
+//     background: #84B7FE;
+//     color: #000215;
+//     font-size: 18px;
+//     border: none;
+//     border-radius: 2px;
+//     padding: 8px 3rem;
+
+//     &.selected {
+//       background: #0238B6;
+//       color: white;
+//     }
+//   }
+
+// }
+
+// .description {
+//   font-size: 14px;
+//   text-align: start;
+// }
+
+// .slider-container {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+
+//---------------------------------------------------------
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  touch-action: pan-y;
+  padding: 0 10px; // da espacio a los slides laterales
+}
+
+.carousel-track {
+  display: flex;
+  width: 300%;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 33.3333%; // 3 slides por vista
+  margin: 0 5px;
+  background: #84B7FE;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  user-select: none;
+}
+
+//---------------------------------------------------------
+
+// .carousel-container {
+//   overflow: hidden;
+//   width: 100%;
+//   max-width: 390px;
+//   margin: auto;
+//   touch-action: pan-y;
+//   position: relative;
+// }
+
+// .carousel-track {
+//   display: flex;
+//   transition: transform 0.4s ease;
+//   padding: 40px 0;
+// }
+
+// .carousel-slide {
+//   flex: 0 0 33.3333%;
+//   box-sizing: border-box;
+//   padding: 0 8px;
+//   background: #84B7FE;
+//   border-radius: 10px;
+//   text-align: center;
+//   font-size: 18px;
+//   font-weight: bold;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 140px;
+//   transition: transform 0.4s ease, scale 0.4s ease;
+// }
+
+// // Opcional: destacar el slide central
+// .carousel-slide.active {
+//   transform: scale(1.1);
+//   background: #0238B6;
+//   color: white;
+// }
+

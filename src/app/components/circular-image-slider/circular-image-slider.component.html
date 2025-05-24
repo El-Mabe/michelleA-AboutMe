@@ -1,0 +1,45 @@
+<div class="slider-container">
+
+    <!-- Slider Izquierdo -->
+    <div class="circular-container" #circularContainerLeft>
+        <div class="image-orbit">
+            <div *ngFor="let image of images; let i = index" class="orbit-image-container"
+                [class.active]="i === activeIndex" [style.transform]="getImagePositionL(i)" (click)="setActive(i)">
+                <img [src]="image!.path" [alt]="'Image ' + i" class="orbit-image">
+                <span class="left">{{image.description}}</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="information">
+        <span>Click on each roll to navigate through key stages of her life: </span>
+        <div>
+            <button class="btn-c" [class.press]="btnSelected() === 1" (click)="setData(1)">{{this.titles()[1]}}</button>
+            <button class="btn-c" [class.press]="btnSelected() === 2" (click)="setData(2)">{{this.titles()[2]}}</button>
+            <button class="btn-c" [class.press]="btnSelected() === 3" (click)="setData(3)">{{this.titles()[3]}}</button>
+        </div>
+    </div>
+    <div class="lbl-country">
+        <span class="lbl-c-d">Select individual snapshots, spin through the images, and discover the defining stories behind her purpose.</span>
+        <span class="lbl-c-t">{{strSelected()}}</span>
+    </div>
+    <p class="description">
+        <span>{{descripTitle()}}</span>
+        <br>
+        {{descripText()}}
+    </p>
+
+    <!-- Slider Derecho -->
+    <div class="circular-container" #circularContainerRight>
+        <div class="image-orbit img-orb-r">
+            <div *ngFor="let image of imagesRight; let i = index" class="orbit-image-container"
+                [class.active]="i === activeIndexRight" [style.transform]="getImagePositionR(i)"
+                (click)="setActiveRight(i)">                
+                <img #orbitImage [src]="image.path" [alt]="'Image ' + i" class="orbit-image" [class.r]="i != activeIndexRight">
+                <span class="right">{{image.description}}</span>
+            </div>
+        </div>
+
+    </div>
+
+</div>

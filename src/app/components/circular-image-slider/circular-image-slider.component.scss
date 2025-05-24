@@ -1,0 +1,227 @@
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.circular-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circular-container:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.image-orbit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  align-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.orbit-image-container {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.orbit-image-container:hover {
+  z-index: 15;
+  opacity: 1;
+}
+
+.orbit-image-container.active {
+  z-index: 20;
+  opacity: 1;
+  transition: all 0.5s ease;
+  width: 120px;
+  border: none;
+  overflow: visible;
+
+  .right {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    font-size: 7px;
+    padding-left: 5px;
+    color: #666666;
+    letter-spacing: -0.2px;
+    font-family: "Chivo Mono";
+    line-height: 8px;
+  }
+
+  .left {
+    position: absolute;
+    left: -90px;
+    bottom: 0;
+    width: 80px;
+    font-size: 7px;
+    text-align: right;
+    color: #666666;
+    letter-spacing: -0.2px;
+    font-family: "Chivo Mono";
+    line-height: 8px;
+  }
+}
+
+.orbit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+
+  &.r {
+    transform: rotate(180deg);
+  }
+}
+
+.information {
+  position: absolute;
+  justify-self: anchor-center;
+  justify-items: center;
+  z-index: 99;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  top: 10%;
+  left: 5%;
+
+  span {
+    font-family: "Raleway";
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  div {
+    display: flex;
+    gap: 12px;
+    width: 70%;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    .btn-c {
+      font-family: 'Raleway';
+      background: #ffffff;
+      color: black;
+      font-size: 18px;
+      border: none;
+      border-radius: 17px;
+      padding: 8px 2rem;
+      cursor: pointer;
+      width: 180px;
+
+      :hover {
+        cursor: pointer;
+      }
+
+      &.press {
+        background: #003dae;
+        color: white;
+      }
+    }
+  }
+}
+
+.description {
+  position: absolute;
+  width: 35%;
+  justify-self: anchor-center;
+  top: 65%;
+  left: 5%;
+  font-size: 16px;
+  min-height: 200px;
+  overflow-y: auto;
+  max-height: 200px;
+  z-index: 50;
+  text-align: center;
+  color: #666666;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+
+  span {
+    color: #000000 !important;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+.lbl-country {
+  position: absolute;
+  position-area: center;
+  height: 80px;
+  left: 50px;
+  width: 25%;
+  background: #EEEEEE;
+  box-shadow: 0px 0px 26px -10px rgb(66, 68, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(2);
+  font-family: "Chivo Mono";
+
+  .lbl-c-d {
+    position: absolute;
+    top: -50%;
+    font-size: 8px;
+    width: 70%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .lbl-c-t {
+    background: #00E78A;
+    color: #000000 !important;
+    // padding: 4px 16px;
+    padding: 4px 30%;
+    border-radius: 2px;
+    position: absolute;
+    // left: 30%;
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+
+  }
+}
+
+
+.custom-image-label {
+  margin-left: 8px;
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.img-orb-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: #666666;
+}
