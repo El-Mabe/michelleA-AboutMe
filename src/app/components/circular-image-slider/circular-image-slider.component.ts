@@ -26,11 +26,12 @@ export class CircularImageSliderComponent {
   containerHeight: number = 0;
 
 
-  strSelected = signal<string>("Beginnings")
+  strSelected = signal<string>("")
+  btnSelected = signal<number>(1)
   titles = signal<Record<number, string>>({
-    1: 'Beginnings',
-    2: 'Growth',
-    3: 'Impact',
+    1: 'Roll 1: Beginnings',
+    2: 'Roll 2: Growth',
+    3: 'Roll 3: Impact',
 
     // Agrega más si necesitas
   })
@@ -117,9 +118,14 @@ sustainable future for all of us.`
     this.activeIndex = index;
 
     const selectedImage = this.images[index];
+    this.strSelected.set(this.images[index].title)
     const matchIndex = this.imagesRight.findIndex((img: any) => img.id === selectedImage.tupla);
     if (matchIndex !== -1) {
+      console.log(matchIndex);
+      console.log(matchIndex.title);
+
       this.activeIndexRight = matchIndex;
+
     }
   }
 
@@ -140,40 +146,24 @@ sustainable future for all of us.`
     let angle = ((index - this.activeIndex) / totalImages) * 2 * Math.PI;
     const x = Math.cos(angle) * this.radius * 1.1; // cos → derecha
     const y = Math.sin(angle) * this.radius * 1.1;
-    const scale = index === this.activeIndex ? ' scale(2)' : '';
+    const scale = index === this.activeIndex ? ' scale(2.5)' : '';
 
     const rotationAngle = (angle * 180 / Math.PI) + 90; // +90 para orientar correctamente
     const rotation = index === this.activeIndex ? " " : ` rotate(${rotationAngle}deg)`;
-
-
-    // return `translate(${x}px, ${y}px)${scale}`;
     return `translate(${x}px, ${y}px)${scale}${rotation}`;
   }
 
   getImagePositionR(index: number): string {
-    // if (!this.imagesRight.length) return '';
-    // const totalImages = this.imagesRight.length;
-    // const angle = ((index - this.activeIndexRight) / totalImages) * 2 * Math.PI;
-    // const x = -Math.cos(angle) * this.radiusRight * 1.1;
-    // const y = Math.sin(angle) * this.radiusRight * 1.1;
-    // const scale = index === this.activeIndexRight ? ' scale(2)' : '';
-    // const offsetX = this.radiusRight * 1.7;
-
-    // return `translate(${x + offsetX}px, ${y}px)${scale}`;
-
     if (!this.imagesRight.length) return '';
 
     const totalImages = this.imagesRight.length;
     const angle = ((index - this.activeIndexRight) / totalImages) * 2 * Math.PI;
     const x = -Math.cos(angle) * this.radiusRight * 1.1;
-    const y = Math.sin(angle) * this.radiusRight * 1.5;
-    const scale = index === this.activeIndexRight ? ' scale(2)' : '';
-    const offsetX = this.radiusRight * 1.7;
-
-    // Rotación ajustada para el lado derecho (inversa)
+    const y = Math.sin(angle) * this.radiusRight * 1.1;
+    const scale = index === this.activeIndexRight ? ' scale(2.5)' : '';
     const rotationAngle = -(angle * 180 / Math.PI) + 90; // Negativo para invertir
     const rotation = index === this.activeIndexRight ? "rotate(0)" : ` rotate(${rotationAngle}deg)`;
-
+    const offsetX = this.radiusRight;
     return `translate(${x + offsetX}px, ${y}px)${scale}${rotation}`;
   }
 
@@ -205,7 +195,7 @@ sustainable future for all of us.`
 
   setData(id: number) {
     const map = this.titles()
-    this.strSelected.set(map[id])
+    this.btnSelected.set(id)
     this.descripTitle.set(this.titlesText()[id].title)
     this.descripText.set(this.titlesText()[id].description)
     this.http.get<any>(`assets/data/${id}.json`)
@@ -214,6 +204,7 @@ sustainable future for all of us.`
         this.images = allImages.filter((img: any) => img.column === 'A');
         this.imagesRight = allImages.filter((img: any) => img.column === 'B');
         // setTimeout(() => this.appendSpanToImage(), 0);
+        this.strSelected.set(this.images[0].title)
       });
 
   }
