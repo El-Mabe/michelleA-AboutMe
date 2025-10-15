@@ -178,8 +178,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(2);
   font-family: "Chivo Mono";
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.8);
 
   .lbl-c-d {
     position: absolute;
