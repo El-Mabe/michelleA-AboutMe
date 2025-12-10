@@ -171,15 +171,17 @@
   position: absolute;
   position-area: center;
   height: 80px;
-  left: 50px;
   width: 25%;
   background: #EEEEEE;
   box-shadow: 0px 0px 26px -10px rgb(66, 68, 90);
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(2);
   font-family: "Chivo Mono";
+
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%) scale(2);
 
   .lbl-c-d {
     position: absolute;
