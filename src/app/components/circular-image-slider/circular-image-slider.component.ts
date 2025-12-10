@@ -227,8 +227,9 @@ sustainable future for all of us.`,
   setData(id: number) {
     const map = this.titles();
     this.btnSelected.set(id);
-    this.descripTitle.set(this.titlesText()[id].title);
-    this.descripText.set(this.titlesText()[id].description);
+    const strId = id === 1 ? 1 : id === 2 ? 3 : 4;
+    this.descripTitle.set(this.titlesText()[strId].title);
+    this.descripText.set(this.titlesText()[strId].description);
     this.http.get<any>(`assets/data/${id}.json`).subscribe((data) => {
       const allImages = data.country;
       this.images = allImages.filter((img: any) => img.column === "A");
