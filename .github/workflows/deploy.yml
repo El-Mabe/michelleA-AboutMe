@@ -22,10 +22,10 @@ jobs:
         run: npm install
 
       - name: Build Angular project
-        run: npm run build
+        run: npm run deploy
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages           # Rama donde se publicará
-          folder: dist/mi-app        # Carpeta generada por Angular
+          folder: dist/mi-app/browser        # Carpeta generada por Angular
