@@ -53,8 +53,8 @@ export class CircularImageSliderComponent {
 
   titleMapping: Record<string, number> = {
     "First Steps Forward": 1,
-    "U.S. Research Path": 2,
-    "Impact in colombia": 3,
+    "My U.S. Research Path": 2,
+    "Colombian Impact": 3,
     "Australian Energy Shift": 4,
     "Leading with Purpose": 5,
   };
