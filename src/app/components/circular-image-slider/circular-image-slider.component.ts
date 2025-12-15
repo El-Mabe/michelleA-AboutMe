@@ -153,9 +153,9 @@ sustainable future for all of us.`,
   setActiveRight(index: number) {
     this.activeIndexRight = index;
     const selectedImage = this.imagesRight[index];
-    
-    this.setDescripription(index);
 
+    this.setDescripription(index);
+    this.strSelected.set(this.images[index].title);
     const matchIndex = this.images.findIndex(
       (img: any) => img.id === selectedImage.tupla
     );

@@ -22,14 +22,9 @@ export class ImageService {
   }
 
   private initializeImages() {
-    // Creamos datos de ejemplo, en una app real esto podría venir de una API
     const countries: Country[] = ['USA', 'Australia', 'Colombia'];
-    // assets/images/colombia/a-1.jpeg
     countries.forEach(country => {
-      
-      // Generamos 10 imágenes de tipo 'a' y 10 de tipo 'b' por país
       for (let i = 1; i <= 10; i++) {
-        console.log(`assets/images/${country.toLowerCase()}/a-${i}.jpeg`);
         this.imageMap[country].push({
           id: `a-${i}`,
           path: `assets/images/${country.toLowerCase()}/a-${i}.jpeg`,
@@ -47,7 +42,7 @@ export class ImageService {
     });
   }
 
-  // Obtener el país actualmente seleccionado
+
   get currentCountry$(): Observable<Country> {
     return this.countrySubject.asObservable();
   }
